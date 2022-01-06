@@ -8,25 +8,48 @@
 
 		<link rel="stylesheet" href="css/index.css" />
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+			integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+			integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<a href="index.html"><img src="img/logo.png" alt="" /></a>
 				<ul>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="Apparels.html">Apparels</a></li>
-					<li><a href="contact-us.html">Contact Us</a></li>
 					<li><a href="fabrics.html">Fabrics</a></li>
 					<li><a href="news-and-media.html">News and Media</a></li>
 					<li><a href="sustainability.html">Sustainability</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<div class="banner">
-			<img src="img/banner.jpg" alt="" />
+			<video loop autoplay muted>
+				<source src="video/ruby-mills.mp4" type="video/mp4" />
+			</video>
 		</div>
 
 		<div class="header bussiness">
@@ -34,38 +57,38 @@
 			<div class="bussiness_in">
 				<div class="tab">
 					<div class="overlay">
-					<img src="img/fabric.jpg" alt="" class="bussiness_image" />
+						<img src="img/fabric.jpg" alt="" class="bussiness_image" />
 					</div>
-					<div class="text">
+					<div class="text ps_ab_tf_tl">
 						<h1>FABRIC</h1>
-						<a href="">Discover</a>
+						<a href="" class="btn">Discover</a>
 					</div>
 				</div>
 				<div class="tab">
 					<div class="overlay">
 						<img src="img/interlining1.jpg" alt="" class="bussiness_image" />
 					</div>
-					<div class="text">
+					<div class="text ps_ab_tf_tl">
 						<h1>INTERLINING</h1>
-						<a href="">Discover</a>
+						<a href="" class="btn">Discover</a>
 					</div>
 				</div>
 				<div class="tab">
 					<div class="overlay">
-					<img src="img/apparel.jpg" alt="" class="bussiness_image" />
-				</div>
-					<div class="text">
+						<img src="img/apparel.jpg" alt="" class="bussiness_image" />
+					</div>
+					<div class="text ps_ab_tf_tl">
 						<h1>APPAREL</h1>
-						<a href="">Discover</a>
+						<a href="" class="btn">Discover</a>
 					</div>
 				</div>
 				<div class="tab">
 					<div class="overlay">
 						<img src="img/real-estate.jpg" alt="" class="bussiness_image" />
 					</div>
-					<div class="text">
+					<div class="text ps_ab_tf_tl">
 						<h1>REAL ESTATE</h1>
-						<a href="">Discover</a>
+						<a href="" class="btn">Discover</a>
 					</div>
 				</div>
 			</div>
@@ -75,7 +98,7 @@
 			<div class="our_legacy_image">
 				<img src="img/banner_2.jpg" alt="" />
 			</div>
-			<div class="our_lagacy_text">
+			<div class="our_lagacy_text ps_ab_tf_tl">
 				<h1 class="header">OUR LAGACY</h1>
 				<div class="para_text">
 					Back when there were no televisions, computers, helicopters, or
@@ -99,7 +122,7 @@
 		<div class="slider_tab">
 			<div class="slider_inner">
 				<h1 class="header">OUR VALUES</h1>
-				<div class="slider">
+				<div class="slider dis_fl_ju_c">
 					<div class="our_values">
 						<div class="our_values_head">
 							<img src="img/icon01.png" alt="" />
@@ -119,17 +142,22 @@
 							<h1>Vision</h1>
 						</div>
 						<div class="our_values_text">
-							Vision is the rare ability to see opportunities that others can’t. At Ruby, we take pride in the fact that we can sense the advent of futuristic fibers, fabrics and invest in building the capability to handle these fibers to match the best in the textile world.
+							Vision is the rare ability to see opportunities that others can’t.
+							At Ruby, we take pride in the fact that we can sense the advent of
+							futuristic fibers, fabrics and invest in building the capability
+							to handle these fibers to match the best in the textile world.
 						</div>
 					</div>
 					<div class="our_values">
 						<div class="our_values_head">
 							<img src="img/icon03.png" alt="" />
-							<h1>Passion
-								For Fabrics</h1>
+							<h1>Passion For Fabrics</h1>
 						</div>
 						<div class="our_values_text">
-							We don't like anything average. We want to innovate fabrics that are world-class and we apply every theory, every experience and experiment to make sure that we can achieve greatness. Passion for Fabrics is a part of our DNA.
+							We don't like anything average. We want to innovate fabrics that
+							are world-class and we apply every theory, every experience and
+							experiment to make sure that we can achieve greatness. Passion for
+							Fabrics is a part of our DNA.
 						</div>
 					</div>
 					<div class="our_values">
@@ -138,22 +166,22 @@
 							<h1>Manufacturing expertise</h1>
 						</div>
 						<div class="our_values_text">
-							Expertise is command. Expertise is accuracy. Expertise is control. Expertise is
-                            consistency. Expertise helps us do things that others deem impossible.
+							Expertise is command. Expertise is accuracy. Expertise is control.
+							Expertise is consistency. Expertise helps us do things that others
+							deem impossible.
 						</div>
 					</div>
 					<div class="our_values">
 						<div class="our_values_head">
 							<img src="img/icon05.png" alt="" />
-							<h1>
-								Innovation
-							</h1>
+							<h1>Innovation</h1>
 						</div>
 						<div class="our_values_text">
-							Innovation requires focus, time, dedication, and an experiment-driven attitude.
-                            Exploration and innovation work on new blends, refined with state-of-the-art processing and
-                            finishing technology, has put us at the forefront of Fabric Engineering, thus making
-                            innovation a value that drives us.
+							Innovation requires focus, time, dedication, and an
+							experiment-driven attitude. Exploration and innovation work on new
+							blends, refined with state-of-the-art processing and finishing
+							technology, has put us at the forefront of Fabric Engineering,
+							thus making innovation a value that drives us.
 						</div>
 					</div>
 					<div class="our_values">
@@ -162,12 +190,13 @@
 							<h1>Quality</h1>
 						</div>
 						<div class="our_values_text">
-							Quality is world-class shrinkage control. Quality is the finish that lasts, wash
-                            after wash. Quality is perfectly distributed adhesive on interlining. Quality is the flow,
-                            the bounce in the fabric. Quality is pushing the whiteness index up there and making the
-                            fabrics stay
-                            as white for years to come. Quality is the brilliance shining through thousands Of colours.
-                            Quality is what keeps pilling at bay, while the world wonders how we do it.
+							Quality is world-class shrinkage control. Quality is the finish
+							that lasts, wash after wash. Quality is perfectly distributed
+							adhesive on interlining. Quality is the flow, the bounce in the
+							fabric. Quality is pushing the whiteness index up there and making
+							the fabrics stay as white for years to come. Quality is the
+							brilliance shining through thousands Of colours. Quality is what
+							keeps pilling at bay, while the world wonders how we do it.
 						</div>
 					</div>
 					<div class="our_values">
@@ -176,9 +205,11 @@
 							<h1>Sustainability</h1>
 						</div>
 						<div class="our_values_text">
-							Right from best practices in effluent treatments to enabling far-flung villages
-                            with water accessibility for agricultural development, everything we do is sustainable,
-                            ethical, and responsible. We have ensured that our product designs are also sustainable.
+							Right from best practices in effluent treatments to enabling
+							far-flung villages with water accessibility for agricultural
+							development, everything we do is sustainable, ethical, and
+							responsible. We have ensured that our product designs are also
+							sustainable.
 						</div>
 					</div>
 				</div>
@@ -187,23 +218,47 @@
 
 		<section class="our_inspiration">
 			<div class="inspiration_disc">
+				<div class="inspiration_head header">Our inspiration</div>
 				<div class="inspiration_in">
 					<div class="inspiration">
-						<img src="img/shri.jpg" alt="">
+						<img src="img/shri.jpg" alt="" />
 					</div>
 					<div class="inspiraton_text">
-						<div class="inspiration_head">Our inspiration</div>
 						<div class="p_text">
 							<h1>Shri Manubhai Shah</h1>
-							<p>Built on the solid foundation of technical expertise, impeccable product quality, and non-negotiable business ethics, the Ruby Mills have been the hallmark of textile innovation in India since 1917. This is the result of the leadership of our Chairman Emeritus Shri Manubhai Shah, who spent 66 years embedding these qualities in our DNA.
-							</p><br>
 							<p>
-								Shri Manharlal Chunilal Shah was an exceptional human being and an outstanding leader. A towering personality in the Indian textile industry, he was also the chairman of the Bombay Mill Owners’ Association and the Bombay Textile Research Association. Shri Manubhai was a true visionary, a man far ahead of his times; he epitomised a dauntless entrepreneurial spirit.
-							</p> <br>
+								Built on the solid foundation of technical expertise, impeccable
+								product quality, and non-negotiable business ethics, the Ruby
+								Mills have been the hallmark of textile innovation in India
+								since 1917. This is the result of the leadership of our Chairman
+								Emeritus Shri Manubhai Shah, who spent 66 years embedding these
+								qualities in our DNA.
+							</p>
+							<br />
 							<p>
-								Apart from his business interests, he was also deeply involved in numerous philanthropic acts. His sterling leadership qualities, remarkable foresight, uncompromising pursuit of excellence, humility, and phenomenal capacity to motivate and trust others set him apart. His values and ethics continue to inspire the way Ruby does business today.
-							</p> <br>
-							<p>As a pioneer in textile design, we believe in sharing knowledge to improve the quality of products across the industry. Our management has even been a part of the leadership of prestigious industry bodies such as the Confederation of Indian Textile Industry.
+								Shri Manharlal Chunilal Shah was an exceptional human being and
+								an outstanding leader. A towering personality in the Indian
+								textile industry, he was also the chairman of the Bombay Mill
+								Owners’ Association and the Bombay Textile Research Association.
+								Shri Manubhai was a true visionary, a man far ahead of his
+								times; he epitomised a dauntless entrepreneurial spirit.
+							</p>
+							<br />
+							<p>
+								Apart from his business interests, he was also deeply involved
+								in numerous philanthropic acts. His sterling leadership
+								qualities, remarkable foresight, uncompromising pursuit of
+								excellence, humility, and phenomenal capacity to motivate and
+								trust others set him apart. His values and ethics continue to
+								inspire the way Ruby does business today.
+							</p>
+							<br />
+							<p>
+								As a pioneer in textile design, we believe in sharing knowledge
+								to improve the quality of products across the industry. Our
+								management has even been a part of the leadership of prestigious
+								industry bodies such as the Confederation of Indian Textile
+								Industry.
 							</p>
 						</div>
 					</div>
@@ -211,12 +266,19 @@
 			</div>
 		</section>
 
-
 		<div class="facility_banner">
-				<img src="img/facility-black.jpg" alt="">
-			<div class="banner_text">
+			<img src="img/facility-black.jpg" alt="" />
+			<div class="banner_text ps_ab_tf_tl">
 				<h1>FACILITY</h1>
-				<P>The facilities are equipped with a modern research & development <br> laboratory which is recognized by the Department of Scientific and <br> Industrial Research, Ministry of Science and Technology, Government of <br> India</P>
+				<p>
+					The facilities are equipped with a modern research & development
+					<br />
+					laboratory which is recognized by the Department of Scientific and
+					<br />
+					Industrial Research, Ministry of Science and Technology, Government of
+					<br />
+					India
+				</p>
 			</div>
 		</div>
 
@@ -224,15 +286,23 @@
 			<div class="sustainability_disc">
 				<div class="sustainibility_in">
 					<div class="sustainibility_text">
-						<h1 class="sustainibility_header" ">SUSTAINABLE. <br>
-							ETHICAL. <br>
-							RESPONSIBLE.</h1>
+						<h1 class="sustainibility_header">
+							SUSTAINABLE. <br />
+							ETHICAL. <br />
+							RESPONSIBLE.
+						</h1>
 						<p class="sustain_text">
-							Sustainability is a practice, not a mere trend. <br> Traditionally, businesses have always been about <br> making the most of nature, however, it is high <br> time that we start giving back to nature. <br> ‘Sustainability in the now’, as we call it at The <br> Ruby Mills.
+							Sustainability is a practice, not a mere trend. <br />
+							Traditionally, businesses have always been about <br />
+							making the most of nature, however, it is high <br />
+							time that we start giving back to nature. <br />
+							‘Sustainability in the now’, as we call it at The <br />
+							Ruby Mills.
 						</p>
+						<a href="" class="btn">Know More</a>
 					</div>
 					<div class="sustainability_img">
-						<img src="img/sustainibility.jpg" alt="">
+						<img src="img/sustainibility.jpg" alt="" />
 					</div>
 					<div class="bar"></div>
 				</div>
@@ -240,26 +310,84 @@
 		</section>
 
 		<div class="studio">
-			<img src="img/studio.png" class="studio_logo" alt="">
+			<img src="img/studio.png" class="studio_logo" alt="" />
 			<div class="studio_img">
-				<img src="img/inovation.jpg" alt="">
-				<div class="studio_overlay">
-					<div class="studio_text">
-						<p> Innovation is the lifeblood of Ruby’s business. In step with the times, Ruby Mills intends to innovate with those who drive the fashion today. To enable the same, we have created and open interactive space where the designers, exporters and trade partners get to interact with the fabrics, exchange ideas and make the most of the innovations from Ruby.</p>
-
+				<div>
+					<img src="img/studio01.jpg" alt="" />
+				</div>
+				<div class="studio_text">
+					<img src="img/studio03.jpg" alt="" />
+					<div class="studio_para ps_ab_tf_tl">
+						<p>
+							Innovation is the lifeblood of Ruby’s business. In step with the
+							times, Ruby Mills intends to innovate with those who drive the
+							fashion today. To enable the same, we have created and open
+							interactive space where the designers, exporters and trade
+							partners get to interact with the fabrics, exchange ideas and make
+							the most of the innovations from Ruby.
+						</p>
 					</div>
+				</div>
+				<div>
+					<img src="img/studio02.jpg" alt="" />
 				</div>
 			</div>
 		</div>
 
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<div class="map">
+			<img src="img/map.jpg" alt="" />
+			<div class="map_text">
+				<p>
+					The Ruby Mills Limited reaches every corner of India, through a
+					network covering more than 10,000 retail outlets through 200 dealers
+					and 19 dedicated agents.
+				</p>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<p>
+					With the one of the lowest rate of attrition in the industry, we help
+					our trade partners strengthen and expand their business continously.
+				</p>
+			</div>
+		</div>
 
-		<!-- <script
-			type="text/javascript"
-			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-		></script> -->
+		<footer class="footer">
+			<div class="footer_list">
+				<div class="footer_a">
+					<a href="index.html">Homepage |</a>
+					<a href="fabrics.html">Fabrics |</a>
+					<a href="#">H+ Technology |</a>
+					<a href="#">Interlining |</a>
+					<a href="Apparels.html">Apparel |</a>
+					<a href="#">Real Estate |</a>
+					<a href="#">Investors |</a>
+					<a href="news-and-media.html">News and Media |</a>
+					<a href="contact-us.html">Contact Us </a>
+				</div>
+				<div class="footer_social">
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+					<a href=""><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+			<div class="copyright">Copyright© Ruby Mills 2020</div>
+		</footer>
+
+		<!-- font awesome -->
+
+		<!-- slick slider -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+			integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
 		<script>
 			$(".slider").slick({
@@ -268,8 +396,7 @@
 				speed: 300,
 				slidesToShow: 3,
 				slidesToScroll: 1,
-				autoplay: false,
-				autoplaySpeed: 2000,
+				autoplay: true,
 				responsive: [
 					{
 						breakpoint: 1024,
