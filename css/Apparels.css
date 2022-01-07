@@ -24,12 +24,21 @@ body{
     line-height: 1.45;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 img{
     display: block;
 }
 
 a{
     text-decoration: none;
+}
+
+.d_flex{
+    display: flex;
 }
 
 .dis_fl_ju_c{
@@ -69,7 +78,6 @@ a{
     color: #7cccbf;
     font-weight: normal;
     font-size: 50px;
-    padding: 50px 0;
     text-transform: uppercase;
 }
 
@@ -127,14 +135,126 @@ nav ul li a{
 }
 
 .text{
+    background-color: #f4f6f6; 
+}
+
+.text p{
     width: 40%;
     margin: 0 auto;
     padding: 50px 20px;
     text-align: justify;
-    background-color: #f4f6f6;
 }
 
 
 .scroll{
     
+}
+
+.process h2{
+    padding-top: 50px;
+}
+
+.process p{
+    text-align: center;
+    font-family: gotham book;
+}
+
+.process_icon {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.process_icon .tab{
+    width: 33.33%;
+    padding: 25px;
+}
+
+.process_icon .tab img{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.ready_to_wear{
+    background-color: #f4f6f6;
+}
+
+
+.section_heading h2{
+    padding: 50px 0;
+}
+
+.ready_to_wear .background .range{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.ready_to_wear .background .range:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.ready_to_wear .background .range .range_text{
+    max-width: 40%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.ready_to_wear .background .range .range_text h3{
+    padding: 5px 0;
+    font-size: 33px;
+}
+
+.ready_to_wear .background .range .range_image{
+    width: 40%;
+}
+
+.ready_to_wear .background .range img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.scroll .footer_line img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #d1d1d1;
+    font-family: "Gotham";
+}
+
+.footer .footer_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .footer_list .footer_a a{
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.footer .footer_list .footer_social a i{
+    font-size: 15px;
+    padding: 10px 11px;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.footer .footer_list .footer_social a:nth-child(1) i{
+    padding: 10px 14px;
+}
+
+
+.footer .copyright{
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
 }

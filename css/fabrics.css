@@ -1,0 +1,227 @@
+@font-face {
+    font-family: gotham book;
+    src: url(fonts/Gotham_Book_Font.otf);
+}
+
+@font-face {
+    font-family: gotham light;
+    src: url(fonts/GothamLightRegular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    list-style-type: none;
+    font-family: gotham light;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.dis_fl_ju_c{
+    display: flex;
+    justify-content: center;
+}
+
+.dis_fl_jc_sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dis_fl_jc_sb_ai_c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ps_ab_tf_tl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Gotham book';
+    color: #7cccbf;
+    font-weight: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    font-family: 'Gotham book';
+    z-index: 10;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #3ea392;
+}
+
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.banner .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #2ddabd9c;
+}
+
+.banner .overlay p{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text{
+    background-color: #f4f6f6; 
+}
+
+.text p{
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+.section_head{
+    padding: 3% 0;
+}
+
+.product .product_img{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.product .product_img img{
+    width: 100%;
+}
+
+.product .product_img .product_text .product_para{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.product .product_img .product_text .product_para .product_box{
+    width: 80%;
+}
+
+.special_features{
+    /* background-color: black; */
+}
+
+.special_features .features_heading{
+    padding-top: 3%;
+}
+
+.special_features .features_text{
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slider{
+    padding: 3% 0;
+}
+
+.special_features .slider .slider_tab .inner_flex{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.slick-prev:before{
+    display: none;
+}
+
+.slick-next:before{
+    display: none;
+}
+
+.fa-angle-left:before {
+    content: "\f104";
+    color: white;
+    padding: 4% 53%;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #b5b5b5;
+    font-size: 37px;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    color: white;
+    padding: 4% 53%;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #b5b5b5;
+    font-size: 37px;
+}
+
+.slick-list{
+    margin: 0 10%;
+}
