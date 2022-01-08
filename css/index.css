@@ -5,6 +5,22 @@
 
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7cccbf; 
+    border-radius: 10px;
+  }
+  
 body{
     margin: 0;
     line-height: 1.5;
@@ -42,6 +58,26 @@ a{
     transform: translate(-50%, -50%) ;
 }
 
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Gotham book';
+    color: #7cccbf;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+
 nav{
     list-style-type: none;
     display: flex;
@@ -77,15 +113,6 @@ nav ul li a{
     display: block;
 }
 
-.header{
-    text-align: center;
-    font-family: 'Gotham book';
-    color: #7cccbf;
-    font-weight: 400;
-    font-size: 50px;
-    padding: 50px 0;
-    text-transform: uppercase;
-}
 
 .bussiness{
     padding: 100px;
@@ -102,24 +129,33 @@ nav ul li a{
 
 }
 
+.bussiness .bussiness_in .tab_bot{
+    padding-bottom: 1%;
+}
+
 .bussiness .bussiness_in .tab img{
     width: 100%;
+}
+
+.tab:hover .tab_bot{
+    border: 1px solid #7cccbf;
 }
 
 .tab{
     position: relative;
 }
 
-.tab:hover{
+/* .tab:hover{
     border-bottom: 3px solid #7cccbf;
-}
+} */
 
 .tab .text{
     transition: .5s ease-in-out;
 }
 
-.tab .text h1{
+.tab .text{
     color: #ffffff;
+    font-family: gotham book;
     font-size: 22px;
     font-weight: 400;
     transition: .5s ease-in-out;
@@ -148,19 +184,31 @@ nav ul li a{
     transition: .3s ease-in-out;
 }
 
-.tab:hover img{
-    color: #7cccbf;
-    opacity: .8;
-}
-
 .tab:hover a{
     opacity: 1;
     transform: translateY(10%);
 }
 
+.overlay{
+    background-color: #7cccbfa1;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.transform{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    transition: .5s ease-in-out;
+}
+
 .tab:hover .overlay{
-    background-color: #7cccbf;
-    height: 97.7%;
+    opacity: 1;
+}
+
+.tab:hover .transform{
+    transform: translate(-50%, 1%) rotateX(360deg);
 }
 
 .our_legacy_banner{
@@ -192,17 +240,49 @@ nav ul li a{
 
 .slider{
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-.slick-next:before, .slick-prev:before {
-    color: red;
-    padding: 2px;
-    background-color: #7cccbf;
-    font-size: 30px;
-    border-radius: 15px;
-  }
+.slick-prev:before{
+    display: none;
+}
+
+.slick-next:before{
+    display: none;
+}
+
+.slick-prev img{
+    position: absolute;
+    top: 0;
+    left: -113%;}
+
+/* .fa-angle-left:before {
+    content: "\f104";
+    position: absolute;
+    transform: translateY(-55%);
+    color: white;
+    padding: 4% 53%;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #b5b5b5;
+    font-size: 37px;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    position: absolute;
+    transform: translateY(-55%);
+    color: white;
+    padding: 4% 53%;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #b5b5b5;
+    font-size: 37px;
+} */
+
+.draggable{
+    margin: 0 10%;
+}
 
 .our_values{
     max-width: 80%;
@@ -293,8 +373,8 @@ nav ul li a{
 }
 
 .facility_banner .banner_text{
-    width: 986px;
-    height: 459px;
+    width: 55%;
+    height: 60%;
     text-align: center;
     background-color: #f4f6f6a8;
     display: flex;
