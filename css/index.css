@@ -8,18 +8,18 @@
 /* width */
 ::-webkit-scrollbar {
     width: 6px;
-  }
+}
   
   /* Track */
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     border-radius: 10px;
-  }
+}
    
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #7cccbf; 
     border-radius: 10px;
-  }
+}
   
 body{
     margin: 0;
@@ -491,19 +491,48 @@ nav ul li a{
     height: 100vh;
 }
 
+.map .map_img_text{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
 
-.map .map_text{
+.map .map_img_text .map_text{
+    width: 30%;
+    font-family: gotham light;
     position: absolute;
-    width: 15%;
-    height: 40%;
-    font-family: 'gotham light';
-    font-size: 15px;
     top: 50%;
-    left: 66%;
+    left: 65%;
+}
+
+.map .map_img_text .map_img .map_heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    position: absolute;
+    font-family: gotham book;
+    width: 20%;
+    line-height: 1.2;
+}
+
+.map .map_img_text .map_img .heading_1{
+    color: #e33e3a;
+    top: 17%;
+    left: 5%;
+}
+
+.map .map_img_text .map_img .heading_2{
+    color: #449593;
+    transform:translate(-20%, -30%);
+    bottom: 18%;
+    left: 28%;
 }
 
 .map .map_text p:nth-child(1){
     padding-bottom: 20px;
+}
+
+.footer_line img{
+    width: 100%;
 }
 
 .footer{

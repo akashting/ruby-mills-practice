@@ -8,6 +8,22 @@
     src: url(fonts/GothamLightRegular.otf);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7cccbf; 
+    border-radius: 10px;
+}
+
 *{
     margin: 0;
     padding: 0;
