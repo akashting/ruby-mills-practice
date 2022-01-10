@@ -1,0 +1,130 @@
+@font-face {
+    font-family: gotham book;
+    src: url(fonts/Gotham_Book_Font.otf);
+}
+
+@font-face {
+    font-family: gotham light;
+    src: url(fonts/GothamLightRegular.otf);
+}
+
+:root{
+    --color_primary:#7cccbf;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+    
+    /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+    
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color_primary) ;
+    border-radius: 10px;
+}
+    
+body{
+    margin: 0;
+    line-height: 1.5;
+    list-style-type: none;
+    font-family: gotham light;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.dis_fl_ju_c{
+    display: flex;
+    justify-content: center;
+}
+
+.dis_fl_jc_sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dis_fl_jc_sb_ai_c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ps_ab_tf_tl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.ps_ab{
+    position: absolute;
+}
+
+.ps_ab_tp_ri_bt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #a4a4a4;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'gotham light';
+    font-weight: 600;
+    text-transform: initial;
+}
+
+    
+
+.header{
+    text-align: center;
+    font-family: 'Gotham book';
+    color: var(--color_primary);
+    font-weight: 400;
+    font-size: 50px;
+    padding: 50px 0;
+    text-transform: uppercase;
+}

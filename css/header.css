@@ -1,0 +1,29 @@
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    font-family: 'Gotham book';
+    z-index: 10;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #3ea392;
+}
