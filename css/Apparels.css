@@ -1,25 +1,3 @@
-.banner{
-    position: relative;
-}
-
-.banner img{
-    padding-top: 5%;
-    width: 100%;
-    height: auto;
-}
-
-.banner .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #2ddabd9c;
-}
-
-.banner .overlay p{
-    font-size: 100px;
-    text-transform: uppercase;
-    color: white;
-}
-
 .text{
     background-color: #f4f6f6; 
 }
