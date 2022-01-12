@@ -8,8 +8,14 @@
     src: url(fonts/GothamLightRegular.otf);
 }
 
+@font-face {
+    font-family: gotham medium;
+    src: url(fonts/Gotham_Medium.otf);
+}
+
 :root{
     --color_primary:#7cccbf;
+    --color_secondary:#e33e3a;
 }
 
 *{
@@ -26,13 +32,14 @@
     
     /* Track */
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
+    border-radius: 20px;
+    background: #a4a4a4;
 }
     
     /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color_primary) ;
-    border-radius: 10px;
+    background: var(--color_primary);
+    border-radius: 20px;
 }
     
 body{
@@ -84,6 +91,10 @@ a{
     transform: translate(-50%, -50%) ;
 }
 
+.p_rel{
+    position: relative;
+}
+
 .ps_ab{
     position: absolute;
 }
@@ -110,6 +121,7 @@ a{
     font-size: 15px;
     color: #ffffff;
     background-color: #a4a4a4;
+    border: 1px solid #a4a4a4;
     border-radius: 20px;
     padding: 10px;
     font-family: 'gotham light';
@@ -117,7 +129,11 @@ a{
     text-transform: initial;
 }
 
-    
+.btn:hover{
+    background-color: #ffffff;
+    color:  #a4a4a4;
+    transition: .3s ease-in-out;
+}
 
 .header{
     text-align: center;
@@ -127,4 +143,16 @@ a{
     font-size: 50px;
     padding: 50px 0;
     text-transform: uppercase;
+}
+
+@media screen and (min-width:1330px) {
+    .container{
+        width: 1200px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1329px) {
+    .container{
+        width: 1000px;
+    }
 }

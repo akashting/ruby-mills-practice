@@ -19,3 +19,14 @@
     text-transform: uppercase;
     color: white;
 }
+
+.text{
+    background-color: #f4f6f6; 
+}
+
+.text p{
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: justify;
+}

@@ -13,9 +13,6 @@
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid black;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer .footer_list .footer_a a{
@@ -26,14 +23,14 @@
 
 .footer .footer_list .footer_social a i{
     font-size: 15px;
-    padding: 10px 11px;
+    padding: 8px 9px;
     color: black;
     background-color: #fff;
     border-radius: 50%;
 }
 
 .footer .footer_list .footer_social a:nth-child(1) i{
-    padding: 10px 14px;
+    padding: 8px 11px;
 }
 
 
@@ -42,3 +39,4 @@
     font-size: 12px;
     text-align: center;
 }
+
