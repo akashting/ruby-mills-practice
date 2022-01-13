@@ -28,8 +28,20 @@
     width: 100%;
 }
 
+/* .tab_bot{
+    transform: scale(0);
+    transition: 500ms ease;
+}
+
+.tab_bot:hover{
+    border-bottom: 2px solid #7cccbf;
+    transform-origin: left;
+    transform: scaleX(1);
+} */
+
 .tab{
     position: relative;
+    margin-bottom: 2%;
 }
 
 .tab .text{
@@ -39,7 +51,7 @@
 .tab .text{
     color: #ffffff;
     font-family: gotham book;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     transition: .5s ease-in-out;
 }
@@ -53,7 +65,20 @@
 
 .tab:hover a{
     opacity: 1;
+    
     transform: translateY(10%);
+    
+}
+
+.border{
+    transform: scaleX(0);
+    transition: 600ms ease;
+    transform-origin: left;
+    border-bottom: 2px solid #7cccbf;
+}
+
+.tab_bot:hover .border{
+    transform: scaleX(1);
 }
 
 .overlay{
@@ -172,7 +197,6 @@
     padding: 30px 0;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
 }
 
 .our_inspiration .inspiration_disc .inspiration_in{
@@ -181,6 +205,7 @@
     background-color: #f4f6f6;
     padding-left: 40px;
     padding-right: 40px;
+    position: relative;
 }
 
 .our_inspiration .inspiration_disc .inspiration_in .inspiration{
