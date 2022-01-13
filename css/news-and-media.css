@@ -1,0 +1,54 @@
+
+
+.news_and_media .container .tabs .tab_nav{
+    padding-top: 5%;
+}
+
+.news_and_media .container .tabs .tab_nav ul{
+    border-bottom: 2px solid #f4f6f6;
+}
+
+.news_and_media .container .tabs .tab_nav ul li {
+    list-style-type: none;
+    font-size: 33px;
+    padding: 0 3%;
+}
+
+.news_and_media .container .tabs .tab_nav ul li.active {
+    border-bottom: 2px solid var(--color_secondary);
+}
+
+.news_and_media .container .tabs .tab_nav ul li a{
+    color: #000000;
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab{
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab{
+    padding: 6% 2% 2% 2%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    transition: 500ms ease-in-out;
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab .news_text{
+    padding-left: 4%;
+    font-size: 18px;
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab:hover{
+    transform:scale(1.1);
+    
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab .news_text a{
+    color: black;
+}
+
+.news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab .news_text a p:nth-child(1){
+    font-weight: bold;
+}
