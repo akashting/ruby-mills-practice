@@ -28,7 +28,7 @@
 /* width */
 ::-webkit-scrollbar {
     width: 6px;
-}
+}   
     
     /* Track */
 ::-webkit-scrollbar-track {
@@ -58,6 +58,12 @@ body{
 
 img{
     display: block;
+}
+
+.img_responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a{
@@ -121,7 +127,7 @@ a{
     font-size: 15px;
     color: #ffffff;
     background-color: #a4a4a4;
-    border: 1px solid #a4a4a4;
+    border: 2px solid #a4a4a4;
     border-radius: 20px;
     padding: 10px;
     font-family: 'gotham light';
@@ -145,14 +151,3 @@ a{
     text-transform: uppercase;
 }
 
-@media screen and (min-width:1330px) {
-    .container{
-        width: 1200px;
-    }
-}
-
-@media (min-width:1024px) and (max-width:1329px) {
-    .container{
-        width: 1000px;
-    }
-}

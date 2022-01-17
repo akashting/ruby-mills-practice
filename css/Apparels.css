@@ -43,9 +43,8 @@
 }
 
 .ready_to_wear .background .range .range_text{
-    max-width: 40%;
+    width: 45%;
     text-align: justify;
-    margin: 0 auto;
 }
 
 .ready_to_wear .background .range .range_text h3{
@@ -53,12 +52,7 @@
     font-size: 33px;
 }
 
-.ready_to_wear .background .range .range_image{
-    width: 40%;
-}
-
-.ready_to_wear .background .range img{
-    width: 80%;
-    margin: 0 auto;
+.ready_to_wear .background .range .range_img{
+    width: 45%;
 }
 

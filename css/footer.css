@@ -15,8 +15,13 @@
     border-bottom: 1px solid black;
 }
 
+.footer .footer_list .footer_a{
+    text-align: center;
+    width: 80%;
+}
+
 .footer .footer_list .footer_a a{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 19px;
     color: #000000;
 }
@@ -39,4 +44,10 @@
     font-size: 12px;
     text-align: center;
 }
+
+/* @media (max-width: 1200px) {
+    .footer .footer_list .footer_a{
+        width: 60%;
+    }
+} */
 

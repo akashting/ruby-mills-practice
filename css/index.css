@@ -6,7 +6,7 @@
 
 
 .bussiness{
-    padding: 100px;
+    padding: 5% 0;
 }
 
 .bussiness .bussiness_head{
@@ -15,11 +15,12 @@
 
 .bussiness_in .bussiness_wrap{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
 .bussiness .bussiness_in .bussiness_wrap .tab_bot{
+    /* width: 25%; */
     padding-bottom: 1%;
 }
 
@@ -27,27 +28,12 @@
     width: 100%;
 }
 
-/* .tab_bot{
-    transform: scale(0);
-    transition: 500ms ease;
-}
-
-.tab_bot:hover{
-    border-bottom: 2px solid #7cccbf;
-    transform-origin: left;
-    transform: scaleX(1);
-} */
-
-.tab{
+.bussiness .bussiness_in .bussiness_wrap .tab{
     position: relative;
     margin-bottom: 2%;
 }
 
-.tab .text{
-    transition: .5s ease-in-out;
-}
-
-.tab .text{
+.bussiness .bussiness_in .bussiness_wrap .tab .text{
     color: #ffffff;
     font-family: gotham book;
     font-size: 20px;
@@ -135,31 +121,12 @@
 .slick-prev img{
     position: absolute;
     top: 0;
-    left: -113%;}
-
-/* .fa-angle-left:before {
-    content: "\f104";
-    position: absolute;
-    transform: translateY(-55%);
-    color: white;
-    padding: 4% 53%;
-    border-radius: 50%;
-    opacity: 0.5;
-    background-color: #b5b5b5;
-    font-size: 37px;
+    left: -113%;
 }
 
-.fa-angle-right:before {
-    content: "\f105";
-    position: absolute;
-    transform: translateY(-55%);
-    color: white;
-    padding: 4% 53%;
-    border-radius: 50%;
-    opacity: 0.5;
-    background-color: #b5b5b5;
-    font-size: 37px;
-} */
+.slick-next{
+    right: 0;
+}
 
 .draggable{
     margin: 0 10%;
@@ -174,14 +141,14 @@
     align-items: center;
 }
 
-.our_values_head h1{
+.slider .our_values .our_values_head h1{
     font-family: 'Gotham book';
     color: #6b081d;
     font-size: 33px;
     padding: 5px;
 }
 
-.our_values .our_values_text{
+.slider .our_values .our_values_text{
     font-family: 'Gotham light';
     font-size: 15px;
     padding: 10px 0;
@@ -189,13 +156,6 @@
 
 .our_inspiration{
     padding: 50px 0;
-}
-
-.our_inspiration .inspiration_disc{
-    width: 75%;
-    padding: 30px 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .our_inspiration .inspiration_disc .inspiration_in{
@@ -214,13 +174,12 @@
 
 .our_inspiration .inspiration_disc .inspiration_head{
     padding-bottom: 2%;
-    margin-left: 25%;
+    text-align: justify;
 }
 
 
 .our_inspiration .inspiration_disc .inspiration_in .inspiration img{
     transform: translateY(-10%);
-    max-width: 100%;
 }
 
 .our_inspiration .inspiration_disc .inspiration_in .inspiraton_text{
@@ -280,11 +239,6 @@
     position: relative;
 }
 
-.sustainibility .sustainability_disc{
-    width: 75%;
-    margin : 0 auto;
-}
-
 .sustainibility .sustainability_disc .sustainibility_in{
     display: flex;
     justify-content: space-around;
@@ -303,6 +257,7 @@
 }
 
 .sustainibility .sustainability_disc .sustainibility_in .sustainibility_text .sustain_text{
+
     font-family: Gotham light;
     font-size: 18px;
     padding-bottom: 20px;
@@ -310,10 +265,6 @@
 
 .sustainibility .sustainability_disc .sustainibility_in .sustainability_img{
     width: 50%;
-}
-
-.sustainibility .sustainability_disc .sustainibility_in .sustainability_img img{
-    max-width: 100%;
 }
 
 .sustainibility .sustainability_disc .sustainibility_in .bar{
@@ -358,10 +309,7 @@
 }
 
 .studio .studio_img .studio_text .studio_para p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .map {
@@ -383,8 +331,8 @@
     width: 30%;
     font-family: gotham light;
     position: absolute;
-    top: 50%;
-    left: 65%;
+    top: 55%;
+    left: 75%;
 }
 
 .map .map_img_text .map_img .map_heading{
@@ -412,4 +360,3 @@
 .map .map_text p:nth-child(1){
     padding-bottom: 20px;
 }
-
