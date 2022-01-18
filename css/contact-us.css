@@ -100,17 +100,10 @@
     padding-top: 5%;
 }
 
-.map .map_img::after{
-    content: '';
-    display: table;
-    height: 340px;
-    width: 100%;
+.map .map_img{
     background-color: var(--color_primary);
 }
 
 .map .map_img img{
-    width: 1200px;
-    margin: 0 auto;
-    position: absolute;
-    transform: translate(30%, -25%);
+    transform: translateY(-8%);
 }

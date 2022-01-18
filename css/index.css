@@ -101,7 +101,7 @@
 .para_text{
     font-family: 'Gotham light';
     text-align: center;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 200;
     padding: 5px;
 }
@@ -133,7 +133,7 @@
 }
 
 .our_values{
-    max-width: 80%;
+    width: 80%;
 }
 
 .our_values_head{
@@ -150,7 +150,6 @@
 
 .slider .our_values .our_values_text{
     font-family: 'Gotham light';
-    font-size: 15px;
     padding: 10px 0;
 }
 
@@ -198,12 +197,12 @@
 
 .our_inspiration .inspiration_disc .inspiration_in .inspiraton_text .p_text p{
     font-family: 'gotham light';
-    font-size: 15px;
 }
 
 .facility_banner{ 
     position: relative;
     margin-right: 0;
+
 }
 
 .facility_banner img{
@@ -230,8 +229,7 @@
 }
 
 .facility_banner .banner_text p{
-    font-family: 'gotham light'; 
-    font-size: 15px;
+    font-family: 'gotham light';
 }
 
 .sustainibility{
@@ -257,9 +255,7 @@
 }
 
 .sustainibility .sustainability_disc .sustainibility_in .sustainibility_text .sustain_text{
-
     font-family: Gotham light;
-    font-size: 18px;
     padding-bottom: 20px;
 }
 
@@ -314,25 +310,22 @@
 
 .map {
     position: relative;
+    background-image: url(../img/map_background.jpg);
 }
 
 .map img{
     width: 100%;
-    height: 100vh;
 }
 
 .map .map_img_text{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    align-items: center;
 }
 
 .map .map_img_text .map_text{
-    width: 30%;
+    width: 50%;
     font-family: gotham light;
-    position: absolute;
-    top: 55%;
-    left: 75%;
 }
 
 .map .map_img_text .map_img .map_heading{
@@ -347,16 +340,12 @@
 .map .map_img_text .map_img .heading_1{
     color: var(--color_secondary);
     top: 17%;
-    left: 5%;
+    left: 20%;
 }
 
 .map .map_img_text .map_img .heading_2{
     color: #449593;
     transform:translate(-20%, -30%);
     bottom: 18%;
-    left: 28%;
-}
-
-.map .map_text p:nth-child(1){
-    padding-bottom: 20px;
+    left: 40%;
 }

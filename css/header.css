@@ -11,6 +11,10 @@ nav{
     z-index: 10;
 }
 
+nav img{
+    width: 80%;
+}
+
 nav ul{
     list-style-type: none;
     display: flex;
@@ -18,7 +22,7 @@ nav ul{
 }
 
 nav ul li{
-    padding: 20px;
+    padding: 10px;
 
 }
 

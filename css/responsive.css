@@ -16,13 +16,27 @@
     }
 }
 
-@media only screen and (max-width:1024px){
-    nav ul li{
-        padding: 10px !important;
-    }
+@media screen and (max-width:1024px){
 
     nav ul li a{
         font-size: 18px;
+    }
+
+    /* footer */
+    .footer .footer_list .footer_a a{
+        font-size: 13px !important;
+    }
+
+    /* fabrics */
+
+    .health .health_flex .health_img .health_overlay img{
+        height: 60% ;
+    }
+
+    .health .health_flex .heath_disc{
+        width: 50% !important;
+        height: 100%;
+        left: 75% !important;
     }
 }
 
@@ -33,11 +47,21 @@
     }
 
     .header{
-        font-size: 35px;
+        font-size: 35px !important;
     } 
     
     .btn{
         font-size: 13px;
+    }
+
+    /* banner */
+
+    .banner .overlay p{
+        font-size: 70px;
+    }
+
+    .text p{
+        width: 70% !important;
     }
     
     /* homepage */
@@ -86,6 +110,10 @@
         width: 93% !important;
     }
 
+    .map .map_img_text .map_img .map_heading{
+        font-size: 30px !important;
+    }
+
     /* Apparels */
 
     .process_icon .tab{
@@ -98,4 +126,186 @@
         font-size:20px !important;
     }
 
+    .product .product_img .product_text .product_para .product_box{
+        width: 100% !important;
+    }
+
+    .product .product_img .product_text .product_para .product_box h3{
+        font-size: 15px;
+    }
+
+    /* contact us */
+
+    .contact_us .contact_us_flex .form .text_field input{
+        font-size: 15px !important;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch h3{
+        font-size: 25px !important;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch ul{
+        font-size: 15px !important;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .container{
+        width: 100%;
+    }
+
+    /* common */
+    body{
+        font-size: 12px !important;
+    }
+
+    .header{
+        font-size: 25px !important;
+    } 
+    
+    .btn{
+        font-size: 12px;
+    }
+
+    /* banner */
+
+    .banner .overlay p{
+        font-size: 50px !important;
+    }
+
+    .text p{
+        width: 90% !important;
+        padding: 2% 1% !important;
+    }
+
+    /* footer */
+
+    .footer .footer_list{
+        flex-direction: column;
+        border: none;
+    }
+
+    .footer .footer_list .footer_a{
+        padding-bottom: 2%;
+    }
+
+    /* homepage */
+
+    .bussiness_in .bussiness_wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .slider .our_values .our_values_head h1{
+        font-size: 20px !important;
+    }
+
+    .our_inspiration .inspiration_disc .inspiration_in .inspiraton_text .p_text h1{
+        font-size: 20px !important;
+    }
+
+    .facility_banner .banner_text{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .facility_banner .banner_text h1{
+        font-size: 25px !important;
+    }
+
+    .sustainibility .sustainability_disc .sustainibility_in{
+        flex-direction: column;
+
+    }
+
+    .sustainibility .sustainability_disc .sustainibility_in .sustainibility_text{
+        width: 80% !important;
+        padding-bottom: 5%;
+    }
+
+    .sustainibility .sustainability_disc .sustainibility_in .sustainibility_text .sustainibility_header{
+        font-size: 25px !important;
+    }
+
+    .sustainibility .sustainability_disc .sustainibility_in .sustainability_img{
+        width: 80% !important;
+    }
+
+    .sustainibility .sustainability_disc .sustainibility_in .bar{
+        position: initial !important;
+    }
+
+    .studio .studio_img{
+        flex-direction: column;
+    }
+
+    .studio .studio_img img{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .studio .studio_img .studio_text .studio_para{
+        width: 80% !important;
+        height: 33.33% !important;
+    }
+
+    .map .map_img_text{
+        flex-direction: column;
+        padding: 3% 0;
+    }
+
+    .map .map_img_text .map_text{
+        width: 80% !important;
+        position: initial !important;
+    }
+
+    /* apparel */
+
+    .ready_to_wear .background{
+        padding: 4% 0
+    }
+
+    .ready_to_wear .background .range{
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 2% 0 !important;
+    }
+
+    .ready_to_wear .background .range .range_text{
+        width: 100% !important;
+        padding-bottom: 2%;
+    }
+
+    .ready_to_wear .background .range .range_text h3{
+        font-size: 25px !important;
+    }
+
+    .ready_to_wear .background .range .range_img{
+        width: 80% !important;
+    }
+
+    /* fabrics */
+
+    .product .product_img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product .product_img .product_text{
+        width: 80%;
+    }
+
+    .product .product_img .product_text .product_para {
+        width: 80% !important;
+        height: 33.33% !important;
+    }
+
+    .special_features .slider .slider_tab .inner_flex{
+        font-size: 20px !important;
+    }
+
+    .slick-next{
+        right: 5% !important;
+    }
 }

@@ -14,7 +14,7 @@
 .sustainibility_out .background .sustainibility{
     justify-content: space-between;
     align-items: center;
-    padding: 8% 0;
+    padding: 5% 0;
 }
 
 .sustainibility_out .background .sustainibility:nth-child(odd){
@@ -22,8 +22,7 @@
 }
 
 .sustainibility_out .background .sustainibility .sustainibility_text{
-    max-width: 40%;
-    margin: 0 auto;
+    width: 45%;
 }
 
 .sustainibility_out .background .sustainibility .sustainibility_text h3{
@@ -31,12 +30,7 @@
     font-size: 33px;
 }
 
-.sustainibility_out .background .sustainibility .sustainibility_image{
-    width: 40%;
-}
-
-.sustainibility_out .background .sustainibility img{
-    width: 80%;
-    margin: 0 auto;
+.sustainibility_out .background .sustainibility .sustainibility_img{
+    width: 45%;
 }
 
