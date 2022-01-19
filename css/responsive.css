@@ -152,7 +152,7 @@
 
 @media screen and (max-width:767px){
     .container{
-        width: 100%;
+        width: 80%;
     }
 
     /* common */
@@ -195,6 +195,11 @@
     .bussiness_in .bussiness_wrap{
         flex-wrap: wrap;
         justify-content: center;
+        padding: 2%;
+    }
+
+    .bussiness .bussiness_in .bussiness_wrap .tab_bot{
+        width: 50%;
     }
 
     .slider .our_values .our_values_head h1{
@@ -212,6 +217,11 @@
 
     .facility_banner .banner_text h1{
         font-size: 25px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .sustainibility{
+        padding: 50px 0px !important;
     }
 
     .sustainibility .sustainability_disc .sustainibility_in{
@@ -220,7 +230,7 @@
     }
 
     .sustainibility .sustainability_disc .sustainibility_in .sustainibility_text{
-        width: 80% !important;
+        width: 100% !important;
         padding-bottom: 5%;
     }
 
@@ -229,7 +239,7 @@
     }
 
     .sustainibility .sustainability_disc .sustainibility_in .sustainability_img{
-        width: 80% !important;
+        width: 100% !important;
     }
 
     .sustainibility .sustainability_disc .sustainibility_in .bar{
@@ -256,8 +266,12 @@
     }
 
     .map .map_img_text .map_text{
-        width: 80% !important;
+        width: 100% !important;
         position: initial !important;
+    }
+
+    .map .map_img_text .map_img .heading_2{
+        bottom: 30% !important;
     }
 
     /* apparel */
@@ -282,7 +296,7 @@
     }
 
     .ready_to_wear .background .range .range_img{
-        width: 80% !important;
+        width: 100% !important;
     }
 
     /* fabrics */
@@ -305,7 +319,79 @@
         font-size: 20px !important;
     }
 
-    .slick-next{
-        right: 5% !important;
+    .brands .brands_in .brands_wrap{
+        flex-direction: column;
+    }
+
+    .brands .brands_in .brands_wrap .brand_tab{
+        justify-content: center !important;
+       width: 100% !important;
+    }
+
+    .background .quality{
+        flex-direction: column !important;
+    }
+
+    .background .quality .quality_text{
+        width: 100% !important;
+        padding-bottom: 2%;
+    }
+
+    .background .quality .quality_img{
+        width: 100% !important;
+    }
+
+    .background .quality .quality_text h3{
+        font-size: 25px !important;
+    }
+
+    /* sustainibility */
+
+    .background .sustainibility{
+        flex-direction: column !important;
+        padding: 3% 0 !important;
+    }
+
+    .background .sustainibility .sustainibility_text{
+        width: 100% !important;
+        padding-bottom: 2%;
+    }
+
+    .background .sustainibility .sustainibility_img{
+        width: 100% !important;
+    }
+
+    .background .sustainibility .sustainibility_text h3{
+        font-size: 25px !important;
+    }
+
+    /* newa & media */
+
+    #tab1 .media_tab{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tab1 .media_tab .news_tab{
+        width: 100% !important;
+    }
+
+    /* contact us */
+
+    .contact_us .contact_us_flex {
+        flex-direction: column;
+    }
+
+    .contact_us .contact_us_flex .form{
+        width: 100% !important;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch{
+        width: 100% !important;
+        padding: 3% 0 !important;
+    }
+
+    .map .map_img{
+        width: 100% !important;
     }
 }
