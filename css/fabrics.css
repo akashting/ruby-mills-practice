@@ -104,48 +104,34 @@
 
 .health .health_flex{
     display: flex;
+    align-items: center;
     width: 100%;
 }
 
-
-.health .health_flex .ps_ab{
-    top: 50%;
-    left: 25%;
-    transform: translate(-15%, -50%);
-}
-
-.health .health_flex .health_bg img{
-    width: 100%;
-}
-
-.health .health_flex .heath_img img{
-    width: 50%;
-    background-color: #2ddabd9c;
-}
-
-.health .health_flex .heath_img img{
-    width: 50%;
-}
-
-.health .health_flex .health_img .health_overlay{
+.health .health_flex .health_img{
+    background: #2ddabd9c;
     width: 50%;
     height: 100%;
-    background-color: #2ddabd9c;
+    padding: 10% 0;
 }
 
-.health .health_flex .health_img .health_overlay img{
-    height: 70%;
+.health .health_flex .health_img  img{
+    width: 40%;
+    margin: 0 auto;
 }
 
-.health .health_flex .heath_disc{
-    width: 25%;
-    padding: 3% 2%;
-    background-color: white;
-    font-weight: bold;
+.health .health_flex .health_text{
+    width: 50%;
+    padding: 2%;
 }
 
-.health .health_flex .heath_disc .para_text{
-    padding-bottom: 20px;
+.health .health_flex .health_text .health_disc{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.health .health_flex .health_disc .para_text {
+    padding-bottom: 4%;
 }
 
 .quality h2{

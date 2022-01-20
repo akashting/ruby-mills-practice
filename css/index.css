@@ -134,12 +134,15 @@
 
 .our_values{
     width: 80%;
-    padding: 0 10%;
 }
 
 .our_values_head{
     display: flex;
     align-items: center;
+}
+
+.our_values_head img{
+    width: 25%;
 }
 
 .slider .our_values .our_values_head h1{

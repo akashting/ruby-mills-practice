@@ -40,17 +40,28 @@
 	</head>
 	<body>
 		<header>
-			<nav>
-				<a href="index.html"
-					><img src="img/logo.png" alt="" class="img_responsive"
-				/></a>
-				<ul>
-					<li><a href="Apparels.html">Apparels</a></li>
-					<li><a href="fabrics.html">Fabrics</a></li>
-					<li><a href="sustainability.html">Sustainability</a></li>
-					<li><a href="news-and-media.html">News and Media</a></li>
-					<li><a href="contact-us.html">Contact Us</a></li>
-				</ul>
+			<nav class="nav">
+				<input type="checkbox" id="nav-check">
+				<div class="nav-header">
+				  <div class="nav-title">
+					<a href="index.html"><img src="img/logo.png" alt="" class="img_responsive"/></a>
+				  </div>
+				</div>
+				<div class="nav-btn">
+				  <label for="nav-check">
+					<span></span>
+					<span></span>
+					<span></span>
+				  </label>
+				</div>
+				
+				<div class="nav-links">
+				  <a href="Apparels.html">Apparels</a>
+				  <a href="fabrics.html">Fabrics</a>
+				  <a href="sustainability.html">Sustainability</a>
+				  <a href="news-and-media.html">News & Media</a>
+				  <a href="contact-us.html">Contact Us</a>
+				</div>
 			</nav>
 		</header>
 
@@ -262,31 +273,24 @@
 
 			<section class="health">
 				<div class="health_flex">
-					<div class="health_bg">
-						<img
-							src="img/fabrics/health_bg.jpg"
-							alt=""
-							class="img_responsive"
-						/>
-					</div>
 					<div class="health_img">
-						<div class="health_overlay overlay">
 							<img
-								class="health_logo ps_ab img_responsive"
+								class="health_logo img_responsive"
 								src="img/fabrics/healthcare.png"
 								alt=""
 							/>
-						</div>
 					</div>
-					<div class="heath_disc ps_ab_tf_tl">
-						<p class="para_text">
-							One of the critical aspects of our research has been protection
-							from microbes through clothing. As a social responsibility, Ruby
-							Mills Limited has been doing Research and Development on H+
-							Technology – the efficacious Anti-Viral, Anti-Microbial,
-							Anti-fungal protection.
-						</p>
-						<a class="btn" href="">Know More</a>
+					<div class="health_text">
+						<div class="health_disc">
+							<p class="para_text">
+								One of the critical aspects of our research has been protection
+								from microbes through clothing. As a social responsibility, Ruby
+								Mills Limited has been doing Research and Development on H+
+								Technology – the efficacious Anti-Viral, Anti-Microbial,
+								Anti-fungal protection.
+							</p>
+							<a class="btn" href="">Know More</a>
+						</div>
 					</div>
 				</div>
 			</section>

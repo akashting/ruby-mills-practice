@@ -18,7 +18,7 @@
 
 @media screen and (max-width:1024px){
 
-    nav ul li a{
+    .nav .nav-links a{
         font-size: 18px;
     }
 
@@ -29,14 +29,9 @@
 
     /* fabrics */
 
-    .health .health_flex .health_img .health_overlay img{
-        height: 60% ;
-    }
-
-    .health .health_flex .heath_disc{
-        width: 50% !important;
+    .health .health_flex .health_text .health_disc{
+        width: 80% !important;
         height: 100%;
-        left: 75% !important;
     }
 }
 
@@ -203,7 +198,7 @@
     }
 
     .slider .our_values .our_values_head h1{
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
 
     .our_inspiration .inspiration_disc .inspiration_in .inspiraton_text .p_text h1{
@@ -326,6 +321,20 @@
     .brands .brands_in .brands_wrap .brand_tab{
         justify-content: center !important;
        width: 100% !important;
+    }
+
+    .health .health_flex .health_img{
+        width: 100% !important;
+        padding: 5% 0 !important;
+    }
+
+    .health .health_flex{
+        flex-direction: column;
+    }
+
+
+    .health .health_flex .health_text{
+        width: 90% !important;
     }
 
     .background .quality{

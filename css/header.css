@@ -1,34 +1,108 @@
-nav{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
+.nav {
     width: 100%;
-    align-items: center;
-    padding: 10px 30px;
-    background-color: white;
-    font-family: 'Gotham book';
+    background-color: #fff;
     z-index: 10;
-}
-
-nav img{
-    width: 80%;
-}
-
-nav ul{
-    list-style-type: none;
+    position: fixed;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
-}
+    align-items: center;
+    font-family: 'Gotham book';
+  }
 
-nav ul li{
+  .nav .nav-header{
+      width: 20%;
+  }
+  
+  .nav .nav-header .nav-title {
+    width: 100%;
     padding: 10px;
-
-}
-
-nav ul li a{
-    text-decoration: none;
+  }
+  
+  .nav .nav-btn {
+    display: none;
+  }
+  
+  .nav .nav-links {
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav .nav-links a {
+    display: inline-block;
+    padding: 10px 13px;
     font-size: 25px;
+    text-decoration: none;
     color: #3ea392;
-}
+    border-radius: 10px;
+  }
+  
+  .nav .nav-links a:hover {
+    transition: 500ms ease-in-out;
+    background-color: #3ea392;
+    color: #fff;
+  }
+  
+  .nav #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:768px) {
+    .nav .nav-btn {
+      display: flex;
+    }
+    .nav .nav-btn label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
 
+    .nav .nav-btn label span {
+      display: block;
+      width: 35px;
+      height: 12px;
+      border-top: 2px solid #3ea392;
+      transition: 0.5s ease ;
+    }
+
+    .nav #nav-check:checked ~ .nav-btn label span:nth-child(1){
+        transform: translate(-18%,90%) rotate(45deg);
+    }
+
+    .nav #nav-check:checked ~ .nav-btn label span:nth-child(2){
+        opacity: 0;
+    }
+
+    .nav #nav-check:checked ~ .nav-btn label span:nth-child(3){
+        transform: translateY(-105%) rotate(-45deg);
+    }
+
+    .nav .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #3ea392;
+      height: 0px;
+      transition: all 400ms ease-in;
+      overflow-y: hidden;
+      top: 100%;
+      left: 0px;
+    }
+    .nav .nav-links a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      font-size: 25px !important;   
+      width: 100%;
+        border-radius: 0px !important;
+        border-bottom: 1px solid;
+    }
+    .nav #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
