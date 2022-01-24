@@ -203,6 +203,10 @@
         height: 33.33%;
     }
 
+    .special_features .features_text{
+        width: 100%;
+    }
+
     .special_features .slider .slider_tab .inner_flex{
         font-size: 20px;
     }
@@ -212,7 +216,6 @@
     }
 
     .brands .brands_in .brands_wrap .brand_tab{
-        justify-content: center;
        width: 100%;
     }
 

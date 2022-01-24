@@ -11,7 +11,7 @@
   }
 
   .nav .nav-header{
-      width: 25%;
+      width: 15%;
   }
   
   .nav .nav-header .nav-title {
@@ -34,15 +34,22 @@
     font-size: 25px;
     text-decoration: none;
     color: #3ea392;
+    transition: 500ms ease-in-out;
+  }
+
+  .nav .nav-links a.active{
+    border-bottom: 2px solid #3ea392;
+  }
+
+  .nav .nav-links a:not(.active){
     border-radius: 10px;
   }
   
-  .nav .nav-links a:hover {
-    transition: 500ms ease-in-out;
+  .nav .nav-links a:not(.active):hover {
     background-color: #3ea392;
     color: #fff;
   }
-  
+
   .nav #nav-check {
     display: none;
   }
@@ -54,6 +61,14 @@
   }
   
   @media screen and (max-width:768px) {
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    .nav .nav-header{
+      width: 25%;
+    }
+
     .nav .nav-btn {
       display: flex;
     }
@@ -99,10 +114,10 @@
       display: block;
       color: #fff;
       text-align: center;
-      font-size: 25px !important;   
+      font-size: 25px ;   
       width: 100%;
         border-radius: 0px !important;
-        border-bottom: 1px solid;
+        border-bottom: 1px solid !important;
     }
     .nav #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
