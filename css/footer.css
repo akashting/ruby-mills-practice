@@ -51,8 +51,10 @@
     }
 } */
 
-@media screen and (max-width:992px){
-
+@media screen and (max-width:1024px){
+    .footer .footer_list .footer_a a{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width:767px){

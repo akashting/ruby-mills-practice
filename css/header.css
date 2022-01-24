@@ -46,6 +46,12 @@
   .nav #nav-check {
     display: none;
   }
+
+  @media screen and (max-width:1024px){
+    .nav .nav-links a{
+      font-size: 18px;
+    }
+  }
   
   @media screen and (max-width:768px) {
     .nav .nav-btn {
