@@ -56,3 +56,33 @@
     width: 45%;
 }
 
+@media screen and (max-width:992px){
+    .process_icon .tab{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .ready_to_wear .background{
+        padding: 4% 0
+    }
+
+    .ready_to_wear .background .range{
+        flex-direction: column !important;
+        justify-content: center;
+        padding: 2% 0;
+    }
+
+    .ready_to_wear .background .range .range_text{
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .ready_to_wear .background .range .range_text h3{
+        font-size: 25px;
+    }
+
+    .ready_to_wear .background .range .range_img{
+        width: 100%;
+    }
+}

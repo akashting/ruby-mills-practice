@@ -152,3 +152,53 @@ a{
     text-transform: uppercase;
 }
 
+@media(min-width:768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width:992px){
+    body{
+        font-size: 13px;
+    }
+
+    .header{
+        font-size: 35px;
+    } 
+    
+    .btn{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container{
+        width: 80%;
+    }
+
+    /* common */
+    body{
+        font-size: 12px;
+    }
+
+    .header{
+        font-size: 25px;
+    } 
+    
+    .btn{
+        font-size: 12px;
+    }
+}

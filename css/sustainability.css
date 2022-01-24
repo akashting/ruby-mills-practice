@@ -1,16 +1,3 @@
-
-
-.text{
-    background-color: #f4f6f6; 
-}
-
-.text p{
-    width: 40%;
-    margin: 0 auto;
-    padding: 50px 20px;
-    text-align: justify;
-}
-
 .sustainibility_out .background .sustainibility{
     justify-content: space-between;
     align-items: center;
@@ -34,3 +21,22 @@
     width: 45%;
 }
 
+@media screen and (max-width:767px){
+    .sustainibility_out .background .sustainibility{
+        flex-direction: column !important;
+        padding: 3% 0;
+    }
+
+    .sustainibility_out .background .sustainibility .sustainibility_text{
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .sustainibility_out .background .sustainibility .sustainibility_img{
+        width: 100%;
+    }
+
+    .sustainibility_out .background .sustainibility .sustainibility_text h3{
+        font-size: 25px;
+    }
+}

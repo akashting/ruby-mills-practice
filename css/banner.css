@@ -30,3 +30,38 @@
     padding: 50px 20px;
     text-align: justify;
 }
+
+@media screen and (max-width:992px){
+    .banner .overlay p{
+        font-size: 70px;
+    }
+
+    .text p{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:767px){ 
+    .banner .overlay p{
+        font-size: 50px;
+    }
+
+    .text p{
+        width: 90%;
+        padding: 2% 1%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .banner{
+        padding-top: 13%;
+    }
+
+    .banner .overlay p{
+        font-size: 30px;
+    }
+
+    .banner .overlay .ps_ab_tf_tl{
+        top: 60%;
+    }
+}

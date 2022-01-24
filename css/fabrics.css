@@ -167,3 +167,83 @@
     width: 45%;
 }
 
+@media screen and (max-width:1024px){
+    .health .health_flex .health_text .health_disc{
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .brands .brands_in .brands_wrap .brand_tab .brand_disc .brand_heading{
+        font-size:20px;
+    }
+
+    .product .product_img .product_text .product_para .product_box{
+        width: 100%;
+    }
+
+    .product .product_img .product_text .product_para .product_box h3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .product .product_img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product .product_img .product_text{
+        width: 80%;
+    }
+
+    .product .product_img .product_text .product_para {
+        width: 80%;
+        height: 33.33%;
+    }
+
+    .special_features .slider .slider_tab .inner_flex{
+        font-size: 20px;
+    }
+
+    .brands .brands_in .brands_wrap{
+        flex-direction: column;
+    }
+
+    .brands .brands_in .brands_wrap .brand_tab{
+        justify-content: center;
+       width: 100%;
+    }
+
+    .health .health_flex .health_img{
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    .health .health_flex{
+        flex-direction: column ;
+    }
+
+
+    .health .health_flex .health_text{
+        width: 90%;
+    }
+
+    .quality .background .quality{
+        flex-direction: column !important;
+    }
+
+    .quality .background .quality .quality_text{
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .quality .background .quality .quality_img{
+        width: 100%;
+    }
+
+    .quality .background .quality .quality_text h3{
+        font-size: 25px;
+    }
+}

@@ -52,3 +52,18 @@
 .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab .news_text a p:nth-child(1){
     font-weight: bold;
 }
+
+@media screen and (max-width:767px){
+    .news_and_media .container .tabs .tab_nav ul li{
+        font-size: 28px;
+    }
+
+    .news_and_media .container .tabs .tab_contents #tab1 .media_tab{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab{
+        width: 100%;
+    }
+}

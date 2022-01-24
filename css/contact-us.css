@@ -107,3 +107,36 @@
 .map .map_img img{
     transform: translateY(-8%);
 }
+
+@media screen and (max-width:992px){
+    .contact_us .contact_us_flex .form .text_field input{
+        font-size: 15px;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch h3{
+        font-size: 25px;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch ul{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .contact_us .contact_us_flex {
+        flex-direction: column;
+    }
+
+    .contact_us .contact_us_flex .form{
+        width: 100%;
+    }
+
+    .contact_us .contact_us_flex .get_in_touch{
+        width: 100%;
+        padding: 3% 0;
+    }
+
+    .map .map_img{
+        width: 100%;
+    }
+}
