@@ -42,8 +42,12 @@
 }
 
 @media screen and (max-width:767px){ 
+    .banner{
+        padding-top: 7%;
+    }
+
     .banner .overlay p{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .text p{
@@ -55,10 +59,6 @@
 @media screen and (max-width:425px){
     .banner{
         padding-top: 13%;
-    }
-
-    .banner .overlay p{
-        font-size: 30px;
     }
 
     .banner .overlay .ps_ab_tf_tl{
