@@ -168,8 +168,7 @@
     display: flex;
     justify-content: center;    
     background-color: var(--color_third);
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 4%;
     position: relative;
 }
 
@@ -468,12 +467,12 @@
     }
 
     .studio .studio_img img{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .studio .studio_img .studio_text .studio_para{
-        width: 80%;
+        width: 91%;
         height: 33.33%;
     }
 

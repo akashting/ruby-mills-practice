@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 2% 0;
 }
 
 .product .product_img img{
@@ -64,7 +65,7 @@
 }
 
 .brands_heading{
-    padding: 50px 0 30px 0;
+    padding: 5% 0 3% 0;
 }
 
 .brands .brands_in{
@@ -199,12 +200,16 @@
     }
 
     .product .product_img .product_text{
-        width: 80%;
+        width: 90%;
     }
 
     .product .product_img .product_text .product_para {
-        width: 80%;
-        height: 33.33%;
+        width: 90%;
+        height: 33%;
+    }
+
+    .product .product_img .product_text .product_para .product_box{
+        width: 95%;
     }
 
     .special_features .features_text{
