@@ -10,7 +10,7 @@
 }
 
 .bussiness .bussiness_head{
-    padding: 50px 0;
+    padding:0 0 5% 0;
 }
 
 .bussiness_in .bussiness_wrap{
@@ -94,7 +94,7 @@
 }
 
 .our_legacy_banner .our_lagacy_text h1{
-    padding: 40px 0 5px 0;
+    padding: 0px 0 1% 0;
 }
 
 .para_text{
@@ -324,6 +324,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5% 0;
 }
 
 .map .map_img_text .map_text{
@@ -474,7 +475,6 @@
 
     .map .map_img_text{
         flex-direction: column;
-        padding: 3% 0;
     }
 
     .map .map_img_text .map_text{

@@ -32,10 +32,14 @@
     padding: 50px 0;
 }
 
+.ready_to_wear .background{
+    padding: 3% 0;
+}
+
 .ready_to_wear .background .range{
     justify-content: space-between;
     align-items: center;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .ready_to_wear .background .range:nth-child(odd){

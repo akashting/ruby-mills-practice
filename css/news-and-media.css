@@ -28,7 +28,7 @@
 }
 
 .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab{
-    padding: 6% 2% 2% 2%;
+    padding: 2%;
     width: 50%;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
 
 @media screen and (max-width:767px){
     .news_and_media .container .tabs .tab_nav ul li{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .news_and_media .container .tabs .tab_contents #tab1 .media_tab{
@@ -65,5 +65,13 @@
 
     .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab{
         width: 100%;
+    }
+
+    .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab img{
+        width: 25%;
+    }
+
+    .news_and_media .container .tabs .tab_contents #tab1 .media_tab .news_tab .news_text{
+        font-size: 12px;
     }
 }

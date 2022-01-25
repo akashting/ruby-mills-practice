@@ -16,6 +16,8 @@
 
 .banner .overlay p{
     font-size: 100px;
+    width: 100%;
+    text-align: center;
     text-transform: uppercase;
     color: white;
 }
@@ -27,7 +29,7 @@
 .text p{
     width: 40%;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 5% 2%;
     text-align: justify;
 }
 
@@ -54,14 +56,14 @@
         width: 90%;
         padding: 2% 1%;
     }
+
+    .banner .overlay .ps_ab_tf_tl{
+        top: 60%;
+    }
 }
 
 @media screen and (max-width:425px){
     .banner{
         padding-top: 13%;
-    }
-
-    .banner .overlay .ps_ab_tf_tl{
-        top: 60%;
     }
 }

@@ -143,10 +143,14 @@
     font-weight: bold;
 }
 
+.quality .background{
+    padding: 3% 0;
+}
+
 .quality .background .quality{
     justify-content: space-between;
     align-items: center;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .quality .background .quality:nth-child(odd){

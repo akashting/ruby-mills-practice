@@ -1,7 +1,11 @@
+.sustainibility_out .background{
+    padding: 3% 0;
+}
+
 .sustainibility_out .background .sustainibility{
     justify-content: space-between;
     align-items: center;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .sustainibility_out .background .sustainibility:nth-child(odd){

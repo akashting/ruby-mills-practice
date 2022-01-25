@@ -136,6 +136,10 @@
         padding: 3% 0;
     }
 
+    .map{
+        padding: 0;
+    }
+
     .map .map_img{
         width: 100%;
     }
