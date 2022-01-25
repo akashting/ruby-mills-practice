@@ -109,6 +109,10 @@
     padding: 50px;
 }
 
+.slider_tab .slider_inner h1{
+    padding-bottom: 5%;
+}
+
 .slick-prev:before{
     display: none;
 }
@@ -163,7 +167,7 @@
 .our_inspiration .inspiration_disc .inspiration_in{
     display: flex;
     justify-content: center;    
-    background-color: #f4f6f6;
+    background-color: var(--color_third);
     padding-left: 40px;
     padding-right: 40px;
     position: relative;
@@ -219,7 +223,7 @@
     height: 60%;
     text-align: center;
     backdrop-filter: blur(10px);
-    background-color: #f4f6f669;
+    background-color: #ffffff69;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,7 +283,7 @@
 .studio{
     padding: 5% 0 ;
     margin: 0;
-    background-color: #f4f6f6;
+    background-color: var(--color_third);
 }
 
 .studio .studio_logo{

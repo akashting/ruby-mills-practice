@@ -68,7 +68,7 @@
 }
 
 .brands .brands_in{
-    background-color: #f4f6f6;
+    background-color: var(--color_third);
 }
 
 .brands .brands_in .brands_wrap{

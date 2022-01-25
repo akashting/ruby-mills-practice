@@ -5,7 +5,7 @@
 }
 
 .news_and_media .container .tabs .tab_nav ul{
-    border-bottom: 2px solid #f4f6f6;
+    border-bottom: 2px solid var(--color_third);
 }
 
 .news_and_media .container .tabs .tab_nav ul li {
