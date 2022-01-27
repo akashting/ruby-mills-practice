@@ -218,7 +218,6 @@
 }
 
 .facility_banner .banner_text{
-    width: 55%;
     height: 60%;
     text-align: center;
     backdrop-filter: blur(10px);

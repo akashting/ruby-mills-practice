@@ -51,6 +51,7 @@ body{
     font-family: gotham light;
     font-size: 15px;
     line-height: 1.45;
+    scroll-behavior: smooth;
 }
 
 .container{
